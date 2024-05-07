@@ -2,5 +2,6 @@
 SSR front end for soa final project
 
 ## tailwind build
-`npx tailwindcss -i ./src/index.css -o ./src/public/css/index.css --watch`
+`npx tailwindcss -i ./index.css -o ./public/output.css --watch`
 
+`npm run dev`

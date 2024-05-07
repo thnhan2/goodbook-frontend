@@ -1,57 +1,20 @@
-<header>
-    <nav>
-        <ul class="style1">
-            <li class="menu-item"><a href="#">Home</a></li>
-            <li class="menu-item"><a href="#">My Books</a></li>
-            <li class="menu-item"><a href="#">Browse</a></li>
-            <li class="menu-item form-item">
-                <form action="#" method="GET">
-                    <input type="text" name="search" class="search-button" placeholder="Search books" />
-                    <button class="bg-blue-300" type="submit">Search</button>
-                </form>
-            </li>
-            <li class="menu-item right-item"><a href="#">Login</a></li>
-            <li class="menu-item right-item"><a href="#">Register</a></li>
-        </ul>
+<header class="bg-primary border-b-amber-900">
+    <nav class="py-2 px-4">
+      <ul class="flex flex-row gap-4 items-center">
+        <li class="hover:bg-secondary p-2"><a href="#">Home</a></li>
+        <li class="hover:bg-secondary p-2"><a href="#">My Books</a></li>
+        <li class="hover:bg-secondary p-2"><a href="#">Browse</a></li>
+        
+        <li class="menu-item flex-grow">
+            <form action="#" method="GET" class="flex items-center justify-center">
+                <input type="text" name="search" class="p-2 roungded-sm" placeholder="Search books" />
+                <button class="bg-secondary text-primary p-2 rounded-sm ml-2" type="submit">Search</button>
+            </form>
+        </li>
+        <li class="menu-item ml-auto hover:bg-secondary p-2"><a href="#">Login</a></li>
+        <li class="menu-item hover:bg-secondary p-2"><a href="#">Register</a></li>
+    </ul>
+    
     </nav>
 </header>
 
-
-
-<style>
-  .search-button {
-    background: #fff;
-    border-radius: 4px;
-    border: 1px solid burlywood;
-    padding: 0.5rem;
-
-  }
-  header {
-    background: #F4F1EA;
-  }
-  .bg-blue-300 {
-    border-radius: 1rem;
-    background: #B7AD98;
-    padding: 0.5rem;
-  }
-    .style1 {
-        padding: 0.6rem;
-        justify-content: stretch;
-        align-items: center;
-        gap: 1rem;
-        display: flex;
-        flex-direction: row;
-    }
-
-    li:not(.form-item) {
-        list-style-type: none;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        background: #F4F1EA;
-    }
-
-    li:not(.form-item):hover {
-      background-color: #B7AD98;
-    }
-
-</style>
