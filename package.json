@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "prettier": "^3.2.5",
+    "tw-elements": "^2.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
